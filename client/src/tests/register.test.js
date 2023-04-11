@@ -40,7 +40,7 @@ test("updates form inputs and submits form", async () => {
   jest.spyOn(window, "fetch").mockImplementation(mockFetch);
 
   // Check that fetch was called with the correct data
-  expect(mockFetch).toHaveBeenCalledWith("http://localhost:4002/register", {
+  expect(mockFetch).toHaveBeenCalledWith("http://localhost:4001/register", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({

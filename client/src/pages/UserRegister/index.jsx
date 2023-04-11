@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const port = 4002;
+const port = 4001;
 
 const UserRegister = () => {
 
